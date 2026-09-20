@@ -74,7 +74,7 @@ body {
     height: 100vh;
     overflow: auto;
 
-   background-image: url("website-background.jfif");
+   background-image: url("website_bg.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
