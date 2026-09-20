@@ -25,14 +25,62 @@ body {
     height: 100vh;
 }
 
+/* ========================================
+   SIDEBAR
+   ======================================== */
+
 .sidebar {
     width: 250px;
     height: 100vh;
     flex-shrink: 0;
 }
 
+/* ========================================
+   LOGO
+   ======================================== */
+
+.logo-container {
+    width: 100%;
+}
+
+.logo-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* ========================================
+   NAVIGATION
+   ======================================== */
+
+.navigation {
+    display: flex;
+    flex-direction: column;
+}
+
+.navigation a {
+    text-decoration: none;
+}
+
+/* ========================================
+   MAIN CONTENT
+   ======================================== */
+
 .main-content {
     flex: 1;
     height: 100vh;
     overflow: auto;
+
+    background-image: url("website-background.jfif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* ========================================
+   HOMEPAGE
+   ======================================== */
+
+.homepage {
+    min-height: 100%;
 }
