@@ -2,7 +2,7 @@
    MINTZ TEACHING SITE
    Main stylesheet
    ======================================== */
-
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&display=swap');
 * {
     box-sizing: border-box;
 }
@@ -69,6 +69,8 @@ body {
 
 .navigation a {
     text-decoration: none;
+    font-family: 'Playfair Display', serif;
+    font-weight: 800;
 }
 
 /* ========================================
