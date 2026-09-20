@@ -93,6 +93,6 @@ body {
 
 .class-squares img {
     width: 250px;
-    height: 250px;
+    height: auto;
 }
 
