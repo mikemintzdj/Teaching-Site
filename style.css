@@ -84,17 +84,9 @@ body {
 .homepage {
     min-height: 100%;
 }
-.class-squares {
-    display: flex;
-    justify-content: center;
-    gap: 65px;
-    margin-top: 80px;
-}
-
-.class-squares img {
-    width: 350px;
+.homepage img {
+    max-width: 80%;
     height: auto;
-   filter: drop-shadow(8px 8px 2px rgba(0, 0, 0, 0.4));
 }
 
 .homepage iframe {
