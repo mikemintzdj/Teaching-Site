@@ -87,7 +87,7 @@ body {
 .class-squares {
     display: flex;
     justify-content: center;
-    gap: 25px;
+    gap: 35px;
     margin-top: 80px;
 }
 
