@@ -30,14 +30,14 @@ body {
     height: 100vh;
     flex-shrink: 0;
     position: relative;
-    border-right: 1px solid black;
+    border-right: 4px solid black;
 }
 
 .sidebar::after {
     content: "";
     position: absolute;
     top: 0;
-    right: -1px;
+    right: 2px;
     width: 2px;
     height: 100%;
     background-color: black;
