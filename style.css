@@ -84,4 +84,15 @@ body {
 .homepage {
     min-height: 100%;
 }
+.class-squares {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 80px;
+}
+
+.class-squares img {
+    width: 250px;
+    height: 250px;
+}
 
