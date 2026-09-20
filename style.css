@@ -98,11 +98,3 @@ body {
     min-height: 100%;
 }
 
-/* ========================================
-   VIDEOS
-   ======================================== */
-
-.homepage iframe {
-    display: block;
-    border: 5px solid red;
-}
