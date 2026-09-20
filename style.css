@@ -74,10 +74,7 @@ body {
     height: 100vh;
     overflow: auto;
 
-   background-image: url("website_bg.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background-color: rgb(245, 245, 245);
 }
 
 /* ========================================
