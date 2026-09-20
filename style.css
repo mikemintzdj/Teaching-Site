@@ -30,7 +30,7 @@ body {
     height: 100vh;
     flex-shrink: 0;
     position: relative;
-    border-right: 4px solid black;
+    border-right: 1px solid black;
 }
 
 .sidebar::after {
