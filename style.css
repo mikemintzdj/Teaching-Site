@@ -31,17 +31,8 @@ body {
     flex-shrink: 0;
     position: relative;
     border-right: 12px solid black;
-}
 
-.sidebar::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 2px;
-    width: 6px;
-    height: 100%;
-    background-color: black;
-    z-index: 10;
+    box-shadow: 8px 0 12px rgba(0, 0, 0, 0.5);
 }
 
 /* ========================================
