@@ -1,131 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <!-- Custom PreHead code is injected here -->
-    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <head>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="apple-mobile-web-app-capable" content="yes" />
-        <meta name ="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
-        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-        <meta charset="utf-8"/>
+    <title>Mr. Mintz</title>
 
-        <!-- Builtin injector for disabling cache -->
-        <meta http-equiv="pragma" content="no-cache"/>
+    <link rel="stylesheet" href="style.css">
+</head>
 
-        <!-- Set the title bar of the page -->
-        <title>Snake-WH</title>
+<body>
 
-        <!-- Custom PreStyle code is injected here -->
-        
+    <div class="site-container">
 
-        <!-- Set the background colour of the document -->
-        <style>
-            body {
-                background: #0;
-                color: #cccccc;
-                margin: 0px;
-                padding: 0px;
-                border: 0px;
-            }
+        <aside class="sidebar">
 
-            canvas {
-                image-rendering: optimizeSpeed;
-                -webkit-interpolation-mode: nearest-neighbor;
-                -ms-touch-action: none;
-                touch-action: none;
-                margin: 0px;
-                padding: 0px;
-                border: 0px;
-            }
-            :-webkit-full-screen #canvas {
-                width: 100%;
-                height: 100%;
-            }
-            :-webkit-full-screen {
-                width: 100%;
-                height: 100%;
-            }
-            
-            /* Custom Runner Styles */
-            div.gm4html5_div_class {
-                margin: 0px;
-                padding: 0px;
-                border: 0px;
-            }
-            div.gm4html5_login {
-                padding: 20px;
-                position: absolute;
-                border: solid 2px #000000;
-                background-color: #404040;
-                color:#00ff00;
-                border-radius: 15px;
-                box-shadow: #101010 20px 20px 40px;
-            }
-            div.gm4html5_cancel_button {
-                float: right;
-            }
-            div.gm4html5_login_button {
-                float: left;
-            }
-            div.gm4html5_login_header {
-                text-align: center;
-            }
-            /* END - Custom Runner Styles */
-            
-        </style>
+            <div class="logo-container">
+                <img src="MrMintz-Logo.png" alt="Mr. Mintz Logo">
+            </div>
 
-        <!-- Custom PostStyle code is injected here -->
-        
+            <nav class="navigation">
 
-        <!-- Builtin injector for injecting flurry analytics code -->
-        
-    </head>
+                <a href="index.html">HOME</a>
 
-    <!-- Custom PostHead code is injected here -->
-    
+                <a href="#">WORLD HISTORY</a>
 
-    <!-- Custom PreBody code is injected here -->
-    
+                <a href="#">GOVERNMENT & CIVICS</a>
 
-    <body>
-        <!-- Custom BodyStart code is injected here -->
-        
+                <a href="#">ARCADE</a>
 
-        <div class="gm4html5_div_class" id="gm4html5_div_id">
-            
-            <!-- Builtin injector for splash screen -->
-            
+                <a href="#">MOVIES & VIDEOS</a>
 
-            <!-- Custom PreCanvas code is injected here -->
-            
+                <a href="#">RESOURCES</a>
 
-            <!-- Create the canvas element the game draws to -->
-            <canvas id="canvas" width="1366" height="768" >
-                
-                <p>Your browser doesn't support HTML5 canvas.</p>
-            </canvas>
-            
-            <!-- Custom PostCanvas code is injected here -->
-            
-        </div>
+            </nav>
 
-        <!-- Run the game code -->
-        <script type="text/javascript" src="html5game/Snake-WH.js?cachebust=1529817850"></script>
+        </aside>
 
-        <!-- Builtin injector for injecting runner path -->
-        
 
-        <script>window.onload = GameMaker_Init;</script>
+        <main class="main-content">
 
-        <!-- Builtin injector for injecting google analytics code -->
-        
+            <div class="homepage">
 
-        <!-- Custom BodyEnd code is injected here -->
-        
-    </body>
+                <h1>Welcome to Mr. Mintz's Website</h1>
 
-    <!-- Custom PostBody code is injected here -->
-    
+                <p>
+                    History, government, games, activities, and more.
+                </p>
+
+                <iframe
+                    width="800"
+                    height="450"
+                    src="https://www.youtube.com/embed/5QBixEtqaW0"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen>
+                </iframe>
+
+            </div>
+
+        </main>
+
+    </div>
+
+</body>
+
 </html>
