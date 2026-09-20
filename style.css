@@ -31,7 +31,7 @@ body {
     flex-shrink: 0;
     position: relative;
    background-color: rgb(134, 147, 151);
-    box-shadow: 8px 0 1px rgba(0, 0, 0, 0.9);
+    box-shadow: 8px 0 4px rgba(0, 0, 0, 0.7);
 }
 /* ========================================
    LOGO
